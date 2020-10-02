@@ -15,15 +15,16 @@
   <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"
     integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV"
     crossorigin="anonymous"></script>
+  <script src="https://kit.fontawesome.com/83a2ef4280.js" crossorigin="anonymous"></script>
   <link rel="stylesheet" href="../css/style.css">
   <title>Bootstrapp</title>
-  <link rel="shortcut icon" href="https://cdn.onlinewebfonts.com/svg/img_1447.png">
+  <link rel="shortcut icon" href="https://sheleaps.org/wp-content/uploads/2018/07/Bootstrap-4-1.png">
 </head>
 
 <body>
   <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
     <a class="navbar-brand">
-      <img src="../images/1.jpg" width="30" height="30" class="d-inline-block align-top" alt="" loading="lazy" href="#">
+      <img src="https://sheleaps.org/wp-content/uploads/2018/07/Bootstrap-4-1.png" width="30" height="30" class="d-inline-block align-top" alt="" loading="lazy" href="#">
       Bootstrap
     </a>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
@@ -33,10 +34,10 @@
     <div class="collapse navbar-collapse" id="navbarSupportedContent">
       <ul class="navbar-nav mr-auto">
         <li class="nav-item active">
-          <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+          <a class="nav-link" href="#"><i class="fas fa-home"></i>Home<span class="sr-only">(current)</span></a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#">Link</a>
+          <a class="nav-link" href="#"><i class="fas fa-link"></i>Link</a>
         </li>
         <li class="nav-item dropdown">
           <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown"
@@ -66,7 +67,16 @@
             <h5 class="card-title">Card title</h5>
             <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's
               content.</p>
-            <a href="#" class="btn btn-primary">Go somewhere</a>
+              <p>
+                <a class="btn btn-primary" data-toggle="collapse" href="#collapseExample1" role="button" aria-expanded="false" aria-controls="collapseExample1">
+                  Go somewhere
+                </a>
+              </p>
+              <div class="collapse" id="collapseExample1">
+                <div class="card card-body">
+                  Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident.
+                </div>
+              </div>
           </div>
         </div>
       </div>
@@ -78,11 +88,11 @@
             <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's
               content.</p>
             <p>
-              <button class="btn btn-primary" type="button" data-toggle="collapse" data-target="#collapseExample" aria-expanded="false" aria-controls="collapseExample">
+              <a class="btn btn-primary" data-toggle="collapse" href="#collapseExample2" role="button" aria-expanded="false" aria-controls="collapseExample2">
                 Go somewhere
-              </button>
+              </a>
             </p>
-            <div class="collapse" id="collapseExample">
+            <div class="collapse" id="collapseExample2">
               <div class="card card-body">
                 Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident.
               </div>
@@ -97,7 +107,16 @@
             <h5 class="card-title">Card title</h5>
             <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's
               content.</p>
-            <a href="#" class="btn btn-primary">Go somewhere</a>
+            <p>
+              <a class="btn btn-primary" data-toggle="collapse" href="#collapseExample3" role="button" aria-expanded="false" aria-controls="collapseExample3">
+                Go somewhere
+              </a>
+            </p>
+            <div class="collapse" id="collapseExample3">
+              <div class="card card-body">
+                Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident.
+              </div>
+            </div>
           </div>
         </div>
       </div>
@@ -108,12 +127,20 @@
             <h5 class="card-title">Card title</h5>
             <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's
               content.</p>
-            <a href="#" class="btn btn-primary">Go somewhere</a>
+            <p>
+              <a class="btn btn-primary" data-toggle="collapse" href="#collapseExample4" role="button" aria-expanded="false" aria-controls="collapseExample4">
+                Go somewhere
+              </a>
+            </p>
+            <div class="collapse" id="collapseExample4">
+              <div class="card card-body">
+                Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident.
+              </div>
+            </div>
           </div>
         </div>
       </div>
     </div>
   </div>
-</body>
 
 </html>
